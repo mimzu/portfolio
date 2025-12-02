@@ -1,0 +1,43 @@
+$font-size10: 0.625rem;
+$font-size12: 0.75rem;
+$font-size14: 0.875rem;
+$font-size16: 1rem;
+$font-size18: 1.125rem;
+$font-size20: 1.25rem;
+$font-size24: 1.5rem;
+$font-size30: 1.875rem;
+$font-size32: 2rem;
+$font-size55: 3.438rem;
+$font-size80: 5rem;
+
+$point-font: 'Gruppo';
+$point-bold-font: 'Krona One';
+
+$font-weight-light: 'NanumSquareNeoLight';
+$font-weight-bold: 'NanumSquareNeoBold';
+$font-weight-ExtraBold: 'NanumSquareNeoExtraBold';
+$font-weight-Heavy: 'NanumSquareNeoHeavy';
+
+$point-color-mint:#00C99A;
+$color-dark-mint:rgba(13, 107, 69, 0.8);
+$color-bg-mint:#D2FFED;
+
+$font-color-brown:#674625;
+$hover-color-yollow:#EECC1B;
+$font-color-blue:#0066FF;
+$hover-color-orange:#FEAC4E;
+$hover-color-lemon:#F9ECBB;
+$hover-color-lime:#E8E737;
+
+$color-dark-gray:#aaa;
+$color-light-gray:#eee;
+
+
+
+
+
+
+@mixin flexrow {
+    display:flex; flex-flow:row nowrap; align-items: center; justify-content: space-between;
+};
+/* 홈페이지 버튼 mixin 만들기*/
