@@ -93,6 +93,18 @@
     .blueelephants {
         background-image:url('../images/sec_bg_blueelephants.png');
         color:$font-color-blue;
+        .mockup {
+            .skill_btn {
+                .btn {
+                    .homepage_btn{
+                        background-color:#fff; color:$font-color-brown;
+                        li {padding:28px 0; font-size:$font-size12; line-height: 144%;}
+                    }
+                    .homepage_btn:nth-child(2) {
+                        background-color:$font-color-blue!important; color:#fff;
+                    }
+            }
+        }
     }
     .ason {
         background-image:url('../images/sec_bg_ason.png')
@@ -190,9 +202,6 @@
                 }
             }
         }
+        }
     }
-    .grapic_design {}
-    .molllin {}
-    .youtube { }
-    .contact_me {}
 }

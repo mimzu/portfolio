@@ -145,36 +145,49 @@
   background-image: url("../images/sec_bg_blueelephants.png");
   color: #0066FF;
 }
-#wrap .ason {
+#wrap .blueelephants .mockup .skill_btn .btn .homepage_btn {
+  background-color: #fff;
+  color: #674625;
+}
+#wrap .blueelephants .mockup .skill_btn .btn .homepage_btn li {
+  padding: 28px 0;
+  font-size: 0.75rem;
+  line-height: 144%;
+}
+#wrap .blueelephants .mockup .skill_btn .btn .homepage_btn:nth-child(2) {
+  background-color: #0066FF !important;
+  color: #fff;
+}
+#wrap .blueelephants .ason {
   background-image: url("../images/sec_bg_ason.png");
 }
-#wrap .minumsa {
+#wrap .blueelephants .minumsa {
   color: #00C99A;
 }
-#wrap .portfolio_section {
+#wrap .blueelephants .portfolio_section {
   height: 100vh;
   display: flex;
   flex-flow: row nowrap;
 }
-#wrap .portfolio_section .portfolio_text_contents {
+#wrap .blueelephants .portfolio_section .portfolio_text_contents {
   padding: 80px 0 0 200px;
   width: 50%;
 }
-#wrap .portfolio_section .portfolio_text_contents .title {
+#wrap .blueelephants .portfolio_section .portfolio_text_contents .title {
   text-align: left;
   padding: 20px 40px;
 }
-#wrap .portfolio_section .portfolio_text_contents .title h3 {
+#wrap .blueelephants .portfolio_section .portfolio_text_contents .title h3 {
   line-height: 150%;
   font-size: 3.438rem;
 }
-#wrap .portfolio_section .portfolio_text_contents .title h3 em {
+#wrap .blueelephants .portfolio_section .portfolio_text_contents .title h3 em {
   font-size: 5rem;
 }
-#wrap .portfolio_section .portfolio_text_contents .title h3 strong {
+#wrap .blueelephants .portfolio_section .portfolio_text_contents .title h3 strong {
   font-family: "Krona One";
 }
-#wrap .portfolio_section .portfolio_text_contents .overview {
+#wrap .blueelephants .portfolio_section .portfolio_text_contents .overview {
   text-align: left;
   padding: 20px 40px;
   width: 480px;
@@ -183,51 +196,51 @@
   flex-flow: column nowrap;
   gap: 20px;
 }
-#wrap .portfolio_section .portfolio_text_contents .overview .overview_title {
+#wrap .blueelephants .portfolio_section .portfolio_text_contents .overview .overview_title {
   font-family: "Gruppo";
   font-size: 1.875rem;
 }
-#wrap .portfolio_section .portfolio_text_contents .overview .overview_title::after {
+#wrap .blueelephants .portfolio_section .portfolio_text_contents .overview .overview_title::after {
   content: "";
   display: block;
   width: 400px;
   height: 1px;
   background-color: #674625;
 }
-#wrap .portfolio_section .portfolio_text_contents .overview p {
+#wrap .blueelephants .portfolio_section .portfolio_text_contents .overview p {
   line-height: 200%;
   letter-spacing: 0;
 }
-#wrap .portfolio_section .portfolio_text_contents .overview p em {
+#wrap .blueelephants .portfolio_section .portfolio_text_contents .overview p em {
   font-family: "NanumSquareNeoBold";
 }
-#wrap .portfolio_section .mockup {
+#wrap .blueelephants .portfolio_section .mockup {
   width: 100%;
   position: relative;
 }
-#wrap .portfolio_section .mockup p {
+#wrap .blueelephants .portfolio_section .mockup p {
   z-index: 11;
   position: absolute;
   top: 228px;
   left: 50%;
   transform: translateX(-50%);
 }
-#wrap .portfolio_section .mockup p em {
+#wrap .blueelephants .portfolio_section .mockup p em {
   font-family: "NanumSquareNeoExtraBold";
 }
-#wrap .portfolio_section .mockup .laptop_mockup {
+#wrap .blueelephants .portfolio_section .mockup .laptop_mockup {
   z-index: 10;
   position: absolute;
 }
-#wrap .portfolio_section .mockup .mobile_mockup {
+#wrap .blueelephants .portfolio_section .mockup .mobile_mockup {
   z-index: 20;
   position: absolute;
   top: 470px;
 }
-#wrap .portfolio_section .mockup .skill_btn {
+#wrap .blueelephants .portfolio_section .mockup .skill_btn {
   z-index: 13;
 }
-#wrap .portfolio_section .mockup .skill_btn .used_skill {
+#wrap .blueelephants .portfolio_section .mockup .skill_btn .used_skill {
   display: flex;
   flex-flow: column nowrap;
   gap: 10px;
@@ -235,7 +248,7 @@
   top: 296px;
   right: 67px;
 }
-#wrap .portfolio_section .mockup .skill_btn .used_skill li {
+#wrap .blueelephants .portfolio_section .mockup .skill_btn .used_skill li {
   width: 90px;
   background-color: #674625;
   color: #fff;
@@ -243,17 +256,17 @@
   border-radius: 16.5px;
   font-size: 0.75rem;
 }
-#wrap .portfolio_section .mockup .skill_btn .used_skill li:nth-child(1),
-#wrap .portfolio_section .mockup .skill_btn .used_skill li:nth-child(2) {
+#wrap .blueelephants .portfolio_section .mockup .skill_btn .used_skill li:nth-child(1),
+#wrap .blueelephants .portfolio_section .mockup .skill_btn .used_skill li:nth-child(2) {
   background-color: none;
   border: 1px solid #674625;
 }
-#wrap .portfolio_section .mockup .skill_btn .btn {
+#wrap .blueelephants .portfolio_section .mockup .skill_btn .btn {
   position: absolute;
   top: 685px;
   right: 67px;
 }
-#wrap .portfolio_section .mockup .skill_btn .btn .homepage_btn {
+#wrap .blueelephants .portfolio_section .mockup .skill_btn .btn .homepage_btn {
   display: block;
   width: 90px;
   height: 90px;
@@ -261,12 +274,12 @@
   background-color: #fff;
   color: #674625;
 }
-#wrap .portfolio_section .mockup .skill_btn .btn .homepage_btn li {
+#wrap .blueelephants .portfolio_section .mockup .skill_btn .btn .homepage_btn li {
   padding: 28px 0;
   font-size: 0.75rem;
   line-height: 144%;
 }
-#wrap .portfolio_section .mockup .skill_btn .btn .homepage_btn:nth-child(2) {
+#wrap .blueelephants .portfolio_section .mockup .skill_btn .btn .homepage_btn:nth-child(2) {
   background-color: #674625;
   color: #fff;
 }
