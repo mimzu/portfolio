@@ -163,6 +163,9 @@
   background-image: url("../images/sec_bg_blueelephants.png");
   color: #fff;
 }
+#wrap .blueelephants .portfolio_text_contents .title {
+  width: max-content;
+}
 #wrap .blueelephants .portfolio_text_contents .title strong {
   color: #0066FF;
 }
@@ -253,10 +256,12 @@
 }
 #wrap .portfolio_section .portfolio_text_contents .title h3 {
   line-height: 150%;
+  font-family: "Gruppo";
   font-size: 3.438rem;
 }
 #wrap .portfolio_section .portfolio_text_contents .title h3 em {
   font-size: 5rem;
+  font-family: "Gruppo";
 }
 #wrap .portfolio_section .portfolio_text_contents .title h3 strong {
   font-family: "Krona One";

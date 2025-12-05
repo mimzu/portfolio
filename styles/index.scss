@@ -122,7 +122,7 @@
         background-image:url('../images/sec_bg_blueelephants.png');
         color:#fff;
         .portfolio_text_contents {
-            .title {
+            .title { width: max-content;
                 strong {color:$font-color-blue;}
             }
         }
@@ -232,8 +232,9 @@
             .title { text-align: left;
                 padding:20px 40px;
                 h3 {line-height: 150%;
+                    font-family:$point-font;
                     font-size:$font-size55;
-                    em {font-size:$font-size80;}
+                    em {font-size:$font-size80; font-family:$point-font;}
                     strong {font-family:$point-bold-font;}
                 }
             }
